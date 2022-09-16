@@ -11,14 +11,14 @@ export default {
     {
       name: 'image',
       type: 'string',
-      title: 'Url'
+      title: 'Image'
     },
     {
       title: 'Category',
       name: 'category',
       type: 'reference',
       to: [
-        {type: 'category'},
+        { type: 'category' },
       ]
     }
   ]
