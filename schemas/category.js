@@ -9,9 +9,19 @@ export default {
       title: 'Name'
     },
     {
+      name: 'key',
+      type: 'string',
+      title: 'Key'
+    },
+    {
       name: 'label',
       type: 'string',
       title: 'Label'
+    },
+    {
+      name: 'english',
+      type: 'string',
+      title: 'English Name'
     },
   ]
 }
