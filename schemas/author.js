@@ -42,6 +42,11 @@ export default {
         { type: 'block' },
         { type: 'image' }
       ]
-    }
+    },
+    {
+      title: 'Site',
+      name: 'site',
+      type: 'string',
+    },
   ]
 }
