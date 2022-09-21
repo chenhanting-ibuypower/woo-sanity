@@ -35,6 +35,12 @@ export default {
       }
     },
     {
+      title: 'Masterpieces',
+      name: 'masterpieces',
+      type: 'array',
+      of: [{type: 'string'}]
+    },
+    {
       title: 'Description',
       name: 'description',
       type: 'array',
