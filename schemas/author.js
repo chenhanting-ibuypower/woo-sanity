@@ -4,9 +4,19 @@ export default {
   title: 'Author',
   fields: [
     {
-      name: 'name',
+      name: 'firstName',
       type: 'string',
-      title: 'Name'
+      title: 'First Name (名)',
+    },
+    {
+      name: 'lastName',
+      type: 'string',
+      title: 'Last Name (姓)',
+    },
+    {
+      name: 'nickname',
+      type: 'string',
+      title: 'Nick Name',
     },
     {
       name: 'avatar',
