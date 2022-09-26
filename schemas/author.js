@@ -19,6 +19,11 @@ export default {
       title: 'Nick Name',
     },
     {
+      name: 'job_title',
+      type: 'string',
+      title: 'Job Title',
+    },
+    {
       name: 'avatar',
       type: 'image',
       title: 'Avatar',
