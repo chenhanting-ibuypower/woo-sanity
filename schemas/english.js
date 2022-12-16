@@ -19,6 +19,14 @@ export default {
       name: 'sanityTiles',
       type: 'array',
       of: [{type: 'image'}]
-    }
+    },
+    {
+      title: 'Slug',
+      name: 'slug',
+      type: 'slug',
+      options: {
+        source: (doc, options) => `__${doc.title}__`
+      }
+    },
   ]
 }
