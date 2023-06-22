@@ -8,6 +8,7 @@ import category from './category'
 import post from './post'
 import author from './author'
 import english from './english'
+import configuration from "./configuration";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -16,6 +17,7 @@ export default createSchema({
     category, // add the document type to this array
     post,
     author,
-    english
+    english,
+    configuration
   ]),
 })
