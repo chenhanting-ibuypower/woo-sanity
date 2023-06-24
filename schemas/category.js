@@ -16,7 +16,13 @@ export default {
     {
       name: 'label',
       type: 'string',
-      title: 'Label'
+      title: 'Label',
+      options: {
+        list: [
+          { title: 'Cat', value: 'cat' },
+          { title: 'Design', value: 'design' },
+        ],
+      },
     },
     {
       name: 'english',
