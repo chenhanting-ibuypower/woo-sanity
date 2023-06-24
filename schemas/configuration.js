@@ -18,5 +18,25 @@ export default {
       name: "homepageCover",
       type: "image",
     },
+    {
+      title: "Description",
+      name: "description",
+      type: "array",
+      of: [
+        {
+          type: 'block'
+        },
+      ]
+    },
+    {
+      title: "Global Description",
+      name: "globalDescription",
+      type: "array",
+      of: [
+        {
+          type: 'block'
+        },
+      ]
+    },
   ],
 };
