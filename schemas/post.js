@@ -27,9 +27,19 @@ export default {
       title: 'Image URL'
     },
     {
-      title: "Image",
-      name: "sanityImage",
+      title: "Cover Image",
+      name: "coverImage",
       type: "image",
+    },
+    {
+      title: "Images",
+      name: "Images",
+      type: "array",
+      of: [
+        {
+          type: "image",
+        },
+      ]
     },
     {
       title: 'Category',
